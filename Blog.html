@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prospera - New Amazing HTML5 Template</title>
+    <link rel="stylesheet" href="css/components.css">  
+    <link rel="stylesheet" href="css/icons.css">  
+    <link rel="stylesheet" href="css/responsee.css">
+    <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="owl-carousel/owl.theme.css">
+    <link rel="stylesheet" href="css/lightcase.css">
+    <link rel="stylesheet" href="css/chatbot.css">
+    <!-- CUSTOM STYLE -->
+    <link rel="stylesheet" href="css/template-style.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800&subset=latin,latin-ext' rel='stylesheet'
+      type='text/css'>
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>    
+    <script type="text/javascript" src="js/validation.js"></script> 
+  </head>
+  
+  <!--
+  You can change the color scheme of the page. Just change the class of the <body> tag. 
+  You can use this class: "primary-color-white", "primary-color-yellow", "primary-color-red", "primary-color-orange", "primary-color-pink", "primary-color-purple", "primary-color-blue", "primary-color-light-blue", "primary-color-aqua", "primary-color-green", "primary-color-dark" 
+  -->
+  
+  <!--
+  Each element is able to have its own background or text color. Just change the class of the element.  
+  You can use this class: 
+  "background-white", "background-yellow", "background-red", "background-orange", "background-pink", "background-purple", "background-blue", "background-light-blue", "background-aqua", "background-green", "background-grey", "background-sand",  "background-primary" 
+  "text-white", "text-yellow", "text-red", "text-orange", "text-pink", "text-purple", "text-blue", "text-light-blue", "text-aqua", "text-green", "text-primary"
+  -->
+  
+  <!-- 
+  If you want animated elements after scroll, add class "animated-element" or "animated-element slow" (for slower animation) to the elements.
+  -->
+   <body class="size-1140 primary-color-red">
+    <button style="z-index: 1000;" class="chatbot-toggler">
+      <span class="material-symbols-rounded">mode_comment</span>
+      <span class="material-symbols-outlined">close</span>
+    </button>
+    <div style="z-index: 1000;" class="chatbot">
+      <header>
+        <h2>Chatbot</h2>
+        <span class="close-btn material-symbols-outlined">close</span>
+      </header>
+      <ul class="chatbox">
+        <li class="chat incoming">
+          <span class="material-symbols-outlined">smart_toy</span>
+          <p>Hi there 👋<br>How can I help you today?</p>
+        </li>
+      </ul>
+      <div class="chat-input">
+        <textarea placeholder="Enter a message..." spellcheck="false" required></textarea>
+        <span id="send-btn" class="material-symbols-rounded">send</span>
+      </div>
+    </div>
+    <!-- HEADER -->
+    <header role="banner">
+    <!-- Top Bar -->
+       <div class="top-bar hide-s hide-m background-dark">
+          <div class="line">
+             <div class="s-12 m-6 l-6">
+                <div class="top-bar-contact">
+                <p class="text-size-12">Contact Us: 0800 200 200 | <a class="text-orange-hover" href="mailto:contact@sampledomain.com">contact@sampledomain.com</a></p>
+                </div>
+             </div>
+             <div class="s-12 m-6 l-6">
+                <div class="right">
+                  <ul class="top-bar-social right">
+                    <li><a href="https://facebook.com"><i class="icon-facebook_circle text-orange-hover"></i></a></li> 
+                    <li><a href="https://twitter.com"><i class="icon-twitter_circle text-orange-hover"></i></a> </li>
+                    <li><a href="https://google.com"><i class="icon-google_plus_circle text-orange-hover"></i></a></li>
+                    <li><a href="https://linkedin.com"><i class="icon-linked_in_circle text-orange-hover"></i></a></li>                                                                        
+                  </ul>  
+                </div>
+             </div>
+          </div>  
+       </div> 
+       <!-- Top Navigation -->
+       <nav class="background-white background-primary-hightlight sticky">
+        <div class="line">
+          <div class="s-12 l-2">
+            <a href="index.html" class="logo"><img src="img/logo-magazine.png" alt=""></a>
+          </div>
+          <div class="top-nav s-12 l-10">
+            
+            <ul class="right chevron">
+              <li>
+                <a>Home</a>
+                <ul>
+                  <li><a href="index.html">Business Home Page</a></li>
+                  <li><a href="video-carousel.html">Video Carousel</a></li>
+                </ul>
+              </li>
+              <li>
+                <a>Product</a>
+                <ul>
+                  <li><a href="products.html">Product Home Page</a></li>
+                  <li><a href="Blog.html">Blog</a></li>
+                </ul>
+              </li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    
+    <!-- MAIN -->
+    <main role="main">
+      <!-- Breaking News Strings -->
+      <div id="typed-strings">
+        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie.</p>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+        <p>Sed diam nonummy nibh euismod tincidunt.</p>
+      </div>
+      <!-- Breaking News Line -->
+      <div class="line margin-top-bottom-10">
+        <span class="text-padding-small background-primary text-white text-size-12">Breaking News</span> <span id="typed" style="white-space:pre;" class="text-padding-small text-size-12">Breaking News</span>
+      </div>
+      
+      <section class="section-small-padding background-white">
+        <div class="line">
+          <div class="margin">
+          
+            <!-- Content -->  
+            <div class="s-12 m-8 l-9">
+              <article>
+                <header>
+                  <p class="margin-bottom text-dark text-uppercase">14 January / 4:56 PM</p>
+                  <h1 class="margin-bottom-30 text-size-40 text-strong text-line-height-1">Title of Blog</h1>
+                </header>
+                <div class="line">
+                  <img class="margin-bottom" src="img/post-01.jpg" alt="">          
+                </div>
+                <div class="line">
+                  <h2 class="text-size-30">Investigationes demonstraverunt lectores</h2>
+                  <hr class="break break-small background-primary">
+                  <p>
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+                  Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
+                  Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros 
+                  et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+                  </p> 
+                  <blockquote class="margin-top-bottom-20">
+                    Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima.
+                  </blockquote>
+                  <p class="margin-bottom-30">
+                  Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; 
+                  est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. 
+                  Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc 
+                  putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc 
+                  nobis videntur parum clari, fiant sollemnes in futurum.
+                  </p>
+                  <img class="margin-bottom" src="img/post-02.jpg" alt="">
+                  <h2>Mirum est notare quam littera gothica</h2>
+                  <p>
+                  Typi non habent claritatem insitam est usus legentis in iis qui facit eorum claritatem. 
+                  Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. 
+                  Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.
+                  </p>    
+                </div>
+                <h5 class="margin-top-30 margin-bottom-20 text-strong">Autor: Johny G.</h5>
+                <hr class="break"> 
+                <p class="h5 text-uppercase margin-top-30 margin-bottom text-strong">Tags</p>
+                <div class="line">
+                  <a href="/" class="text-tag">football</a>
+                  <a href="/" class="text-tag">hockey</a>
+                </div>
+              </article> 
+              
+              <hr class="break">
+              <div class="line">
+                <h5 class="text-uppercase margin-top-30 margin-bottom-20 text-strong">Recent Posts</h5>
+                <div class="margin">  
+                  <article class="s-12 m-12 l-6 margin-m-bottom">
+                    <img class="margin-bottom" src="img/img-06.jpg" alt=""> 
+                    <h3 class="text-strong"><a class="text-dark text-primary-hover" href="/">Lorem ipsum dolor sit amet</a></h3>
+                    <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p> 
+                    <!-- <a class="text-more-info text-primary-hover" href="/">Read more</a>                 -->
+                  </article>
+                  <article class="s-12 m-12 l-6 margin-m-bottom">
+                    <img class="margin-bottom" src="img/img-11.jpg" alt="">
+                    <h3 class="text-strong"><a class="text-dark text-primary-hover" href="/">Consectetuer adipiscing elit</a></h3>
+                
+                    <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p> 
+                    <!-- <a class="text-more-info text-primary-hover" href="/">Read more</a>                 -->
+                  </article>
+                </div>
+              </div>       
+            </div>
+            
+            <!-- Sidebar -->  
+            <div class="s-12 m-4 l-3">
+              <aside> 
+                <!-- Search -->              
+                <div class="line">
+                  <h5 class="text-uppercase margin-bottom-20 text-strong">Search Post</h5>
+                  <form class="customform" action="">
+                    <div class="s-12 m-7 l-8"><input class="text-size-12 background-white" name="" placeholder="Search Here" title="Search Here" type="text" /></div>
+                    <div class="s-12 m-5 l-4"><button type="submit" class="text-size-12 button background-primary center text-white">Search</button></div>
+                  </form>
+                </div>
+                
+                <!-- Social --> 
+                <div class="line">
+                  <h5 class="text-uppercase margin-top-30 margin-bottom-20 text-strong">Stay Connected</h5>
+                  <div class="margin">
+                    <div class="s-6 m-12 l-6">
+                      <a href="https://facebook.com" class="facebook text-social margin-bottom">
+                        Facebook
+                      </a>
+                    </div>
+                    <div class="s-6 m-12 l-6">
+                      <a href="https://twitter.com" class="twitter text-social margin-bottom">
+                        Twitter
+                      </a>
+                    </div>
+                    <div class="s-6 m-12 l-6">
+                      <a href="https://google.com" class="google text-social margin-bottom">
+                        Google+
+                      </a>
+                    </div>
+                    <div class="s-6 m-12 l-6">
+                      <a href="https://linkedin.com" class="rss text-social margin-bottom">
+                        RSS
+                      </a>
+                    </div>
+                    <!-- <div class="s-6 m-12 l-6">
+                      <a href="/" class="linkedin text-social margin-bottom">
+                        LinkedIn
+                      </a>
+                    </div>
+                    <div class="s-6 m-12 l-6">
+                      <a href="/" class="youtube text-social margin-bottom">
+                        YouTube
+                      </a>
+                    </div>
+                    <div class="s-6 m-12 l-6">
+                      <a href="/" class="pinterest text-social margin-bottom">
+                        Pinterest
+                      </a>
+                    </div>
+                    <div class="s-6 m-12 l-6">
+                      <a href="/" class="instagram text-social margin-bottom">
+                        Instagram
+                      </a>
+                    </div>
+                    <div class="s-6 m-12 l-6">
+                      <a href="/" class="vine text-social margin-bottom">
+                        Vine
+                      </a>
+                    </div>
+                    <div class="s-6 m-12 l-6">
+                      <a href="/" class="flickr text-social margin-bottom">
+                        Flickr
+                      </a>
+                    </div> -->
+                  </div>
+                </div>
+                
+                <!-- Most Read Posts --> 
+                <h5 class="text-uppercase margin-top-30 margin-bottom-20 text-strong">Most Read</h5>
+                <div class="line">
+                  <div class="margin">  
+                    <div class="s-12 m-12 l-6 margin-m-bottom">
+                      <img src="img/img-05.jpg" alt="">          
+                    </div>
+                    <div class="s-12 m-12 l-6">
+                      <h6 class="text-strong margin-bottom-0"><a class="text-dark text-primary-hover" href="/">Lorem ipsum dolor sit amet</a></h6>          
+                    </div>    
+                    <div class="s-12"><hr class="break margin-top-bottom-20"></div>                  
+                    <div class="s-12 m-12 l-6 margin-m-bottom">
+                      <img src="img/img-07.jpg" alt="">          
+                    </div>   
+                    <div class="s-12 m-12 l-6">
+                      <h6 class="text-strong margin-bottom-0"><a class="text-dark text-primary-hover" href="/">Duis autem vel eum iriure in hendrerit</a></h6>          
+                    </div>
+                    <div class="s-12"><hr class="break margin-top-bottom-20"></div>
+                    <div class="s-12 m-12 l-6 margin-m-bottom">
+                      <img src="img/img-08.jpg" alt="">          
+                    </div>
+                    <div class="s-12 m-12 l-6 margin-bottom">
+                      <h6 class="text-strong margin-bottom-0"><a class="text-dark text-primary-hover" href="/">Sed diam nonummy nibh euismod</a></h6>          
+                    </div>
+                  </div>
+                </div>
+                
+                <!-- Tags --> 
+                <h5 class="text-uppercase margin-top-30 margin-bottom-20 text-strong">Popular Tags</h5>
+                <div class="line">
+                  <a href="/" class="text-tag">football</a>
+                  <a href="/" class="text-tag">hockey</a>
+                  <a href="/" class="text-tag">goal</a>
+                  <a href="/" class="text-tag">messi</a>
+                  <a href="/" class="text-tag">ronaldo</a>
+                  <a href="/" class="text-tag">basketball</a>
+                  <a href="/" class="text-tag">tenis</a>
+                  <a href="/" class="text-tag">champions</a>
+                  <a href="/" class="text-tag">league</a>
+                  <a href="/" class="text-tag">cup</a>
+                  <a href="/" class="text-tag">video</a>
+                </div>
+                
+                <!-- Categories Navigation --> 
+                <h5 class="text-uppercase margin-top-30 margin-bottom-20 text-strong">Categories</h5>
+                <div class="line">                  
+                  <div class="aside-nav background-primary-hightlight">                    
+                    <ul class="chevron">                      
+                      <li>
+                      <a href="/">Football</a>
+                      <ul>                    
+                        <li>
+                        <a href="/">England</a>
+                        </li>                    
+                        <li>
+                        <a href="/">Spain</a>
+                        </li> 
+                        <li>
+                        <a href="/">Italy</a>
+                        </li>
+                        <li>
+                        <a href="/">Germany</a>
+                        </li>                   
+                      </ul>                    
+                      </li>                       
+                      <li>
+                      <a href="">Basketball</a>
+                      </li>
+                      <li>
+                      <a href="/">Cycling</a>
+                      </li>
+                      <li>
+                      <a href="/">Hockey</a>
+                      </li>                        
+                   
+                      <li>
+                      <a href="/">Tenis</a>                    
+                      <ul>                    
+                        <li>
+                        <a href="/">About</a>
+                        </li>                    
+                        <li>
+                        <a href="/">Location</a>
+                        </li>                    
+                      </ul>                    
+                      </li>                    
+                      <li>
+                      <a href="/">Other Sports</a>
+                      </li>                    
+                    </ul>                  
+                  </div>
+                </div>
+                
+                <!-- AD Banner --> 
+                <h5 class="text-uppercase margin-top-30 margin-bottom-20 text-strong">Advertising</h5>
+                <div class="line">
+                  <img class="margin-bottom center" src="img/banner.jpg" alt="">
+                </div>
+              </aside>
+            </div>
+  
+          </div>
+        </div>    
+      </section>
+    </main>
+    
+    <!--FOOTER -->
+    <footer>
+      <!-- Social -->
+      <div class="background-primary padding text-center">
+        <a href="https://facebook.com"><i class="icon-facebook_circle icon2x text-white"></i></a> 
+        <a href="https://twitter.com"><i class="icon-twitter_circle icon2x text-white"></i></a>
+        <a href="https://google.com"><i class="icon-google_plus_circle icon2x text-white"></i></a>
+        <a href="https://linkedin.com"><i class="icon-linked_in_circle icon2x text-white"></i></a>                                                                         
+      </div>
+      
+      <!-- Main Footer -->
+      <section class="section background-dark">
+        <div class="line">
+          <div class="margin">
+            <!-- Collumn 1 -->
+            <div class="s-12 m-12 l-4 margin-m-bottom-30">
+              <h4 class="text-uppercase text-strong">Our Philosophy</h4>
+              <p class="text-size-20"><em>"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt."</em><p>
+                            
+              <div class="line">
+                <h4 class="text-uppercase text-strong margin-top-30">About Our Company</h4>
+                <div class="margin">
+                  <div class="s-12 m-12 l-4 margin-m-bottom">
+                    <a class="image-hover-zoom" href="/"><img src="img/blog-04.jpg" alt=""></a>
+                  </div>
+                  <div class="s-12 m-12 l-8 margin-m-bottom">
+                    <p>Duis autem vel eum iriure dolor e velit esse molestie consequat.
+                      dolor in hendrerit in estie consequat.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Collumn 2 -->
+            <div class="s-12 m-12 l-4 margin-m-bottom-30">
+              <h4 class="text-uppercase text-strong">Contact Us</h4>
+              <div class="line">
+                <div class="s-1 m-1 l-1 text-center">
+                  <i class="icon-placepin text-primary text-size-12"></i>
+                </div>
+                <div class="s-11 m-11 l-11 margin-bottom-10">
+                  <p><b>Adress:</b> Responsive Street 7, London, UK</p>
+                </div>
+              </div>
+              <div class="line">
+                <div class="s-1 m-1 l-1 text-center">
+                  <i class="icon-mail text-primary text-size-12"></i>
+                </div>
+                <div class="s-11 m-11 l-11 margin-bottom-10">
+                  <p><a href="/" class="text-primary-hover"><b>E-mail:</b> contact@sampledomain.com</a></p>
+                </div>
+              </div>
+              <div class="line">
+                <div class="s-1 m-1 l-1 text-center">
+                  <i class="icon-smartphone text-primary text-size-12"></i>
+                </div>
+                <div class="s-11 m-11 l-11 margin-bottom-10">
+                  <p><b>Phone:</b> 0700 000 987</p>
+                </div>
+              </div>
+              <div class="line">
+                <div class="s-1 m-1 l-1 text-center">
+                  <i class="icon-twitter text-primary text-size-12"></i>
+                </div>
+                <div class="s-11 m-11 l-11 margin-bottom-10">
+                  <p><a href="https://twitter.com" class="text-primary-hover"><b>Twitter</b></a></p>
+                </div>
+              </div>
+              <div class="line">
+                <div class="s-1 m-1 l-1 text-center">
+                  <i class="icon-facebook text-primary text-size-12"></i>
+                </div>
+                <div class="s-11 m-11 l-11">
+                  <p><a href="https://facebook.com" class="text-primary-hover"><b>Facebook</b></a></p>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Collumn 3 -->
+            <div class="s-12 m-12 l-4">
+              <h4 class="text-uppercase text-strong">Contact Form</h4>
+              <!-- If you want to make a field required, add the "required" class to the input. -->
+              <!-- The form e-mail address you can change on file resp-email.php on line 4. -->
+              <form name="contactForm" class="customform ajax-form text-white" method="post">
+                <div class="line">
+                  <div class="margin">
+                    <div class="s-12 m-12 l-6">
+                      <input name="email" class="required email border-radius" placeholder="Your e-mail" title="Your e-mail" type="text" />
+                      <p class="email-error form-error">Please enter your e-mail.</p>
+                    </div>
+                    <div class="s-12 m-12 l-6">
+                      <input name="name" class="name border-radius" placeholder="Your name" title="Your name" type="text" />
+                      <p class="name-error form-error">Please enter your name.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="s-12">
+                  <input name="subject" class="required subject border-radius" placeholder="Subject" title="Subject" type="text" />
+                  <p class="subject-error form-error">Please enter your subject.</p>
+                </div>
+                <div class="s-12">
+                  <textarea name="message" class="required message border-radius" placeholder="Your message" rows="3"></textarea>
+                  <p class="message-error form-error">Please enter your message.</p>
+                </div>
+                <!-- file upload input
+                <div class="s-12">
+                  <input type="file" name="file[]" />                    
+                </div>
+                 -->
+                <!-- full-name-field is hidden antirobot field -->
+                <input name="full-name-field" type="text border-radius" id="full-name-field" class="full-name-field" />
+                <div class="s-12"><a class="captcha-button text-white border-radius margin-bottom"><span class="not-a-robot-icon"><i class="icon-check text-green"></i></span> <span class="not-a-robot-text">I'm not a robot</span></a></div> 
+                <!-- The submit button text you can edit in the file validation.sj on the line 8. -->
+                <div class="s-12 button-parent"></div>
+                <div class="line">
+                  <p class="mail-success form-success">Your message has been sent successfully.</p>
+                  <p class="mail-fail form-error">Sorry, error occured this time sending your message.</p>
+                </div>  
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr class="break margin-top-bottom-0" style="border-color: rgba(0, 38, 51, 0.80);">
+      
+      <!-- Bottom Footer -->
+      <section class="padding background-dark">
+        <div class="line">
+          <div class="s-12 l-6">
+            <p class="text-size-12">Copyright 2019, Vision Design - graphic zoo</p>
+            <p class="text-size-12">All images have been purchased from Bigstock. Do not use the images in your website.</p>
+          </div>
+          <div class="s-12 l-6">
+            <a class="right text-size-12" href="http://www.myresponsee.com" title="Responsee - lightweight responsive framework">Design and coding<br> by Responsee Team</a>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <script type="text/javascript" src="js/responsee.js"></script>
+      <script type="text/javascript" src="js/chatbot.js"></script>
+    <script type="text/javascript" src="js/plugins.min.js"></script>
+    <script type="text/javascript" src="owl-carousel/owl.carousel.js"></script>
+    <script type="text/javascript" src="js/template-scripts.js"></script> 
+    
+    <script type="text/javascript">
+      // typed
+      $(function(){
+        $("#typed").typed({
+            stringsElement: $('#typed-strings'),
+            typeSpeed: 10,
+            backDelay: 2000,
+            loop: true,
+            contentType: 'text',
+            loopCount: false,
+        });
+      });
+    </script>
+         
+   </body>
+</html>
