@@ -5,7 +5,7 @@ const chatInput = document.querySelector(".chat-input textarea");
 const sendChatBtn = document.querySelector(".chat-input span");
 
 let userMessage = null; // Variable to store user's message
-const API_KEY = "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"; // Paste your API key here
+const API_KEY = "sk-kwAHgon1VNCA"; // Paste your API key here
 const inputInitHeight = chatInput.scrollHeight;
 
 const createChatLi = (message, className) => {
@@ -22,7 +22,7 @@ const createChatLi = (message, className) => {
 };
 
 const generateResponse = (chatElement) => {
-  const API_URL = "https://api.openai.com/v1/completions";
+  const API_URL = "https://api.openai.com/v1/chat/completions";
   const messageElement = chatElement.querySelector("p");
 
   // Define the properties and message for the API request

@@ -1,9 +1,9 @@
 /*
- * Responsee JS - v7 - 2020-09-30
+ * 
  * Free to use under the MIT license.
 */
 jQuery(document).ready(function($) {
-  //Responsee tabs
+  // tabs
   $('.tabs').each(function(intex, element) {
     current_tabs = $(this);       
     $('.tab-label').each(function(i) {
@@ -74,7 +74,7 @@ jQuery(document).ready(function($) {
       $('.aside-nav > ul').toggleClass('show-menu', 'fast');
     });
   });  
-  //Responsee nav
+  // nav
   // Add nav-text before top-nav
   $('.top-nav').before('<p class="nav-text"><span></span></p>');   
   $('.top-nav > ul > li ul').each(function(index, element) {

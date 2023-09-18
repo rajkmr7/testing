@@ -1,5 +1,5 @@
 <?php
-    $recipient_email = "info@visiondesign.sk"; //recepient
+    $recipient_email = "info@itwithu.com"; //recepient
     $from_email      = filter_var($_POST["email"], FILTER_SANITIZE_STRING); //from email using site domain.
     $subject         = filter_var($_POST["subject"] . ' - message from your contact form', FILTER_SANITIZE_STRING); //email subject line
     
@@ -10,7 +10,7 @@
 
     
     $file_count = count($attachments['name']); //count total files attached
-    $boundary   = md5("yourweb.com");
+    $boundary   = md5("itwithu.com");
     
     if ($file_count > 0) { //if attachment exists
         //header

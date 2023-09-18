@@ -65,9 +65,7 @@ jQuery(document).ready(function () {
         });
 
         $.ajax({
-          // url: "https://api-server-qh4b.onrender.com",
-          url: "https://html-template1.onrender.com",
-          // url: "http://localhost:5000",
+          url: "http://localhost:5000",
           type: "POST",
           data: JSON.stringify(formObject),
           contentType: "application/json",
